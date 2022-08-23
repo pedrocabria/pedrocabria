@@ -51,6 +51,7 @@ a{
   .box5{
     background-color:#e9ff70 ;
     grid-column: span 2;
+   
        }
        .box6{
     background-color: #ffd670 ;
@@ -94,6 +95,7 @@ grid-template-areas: "header header" "main1 aside1" "footer footer";
    .box5{
 background-color:#e9ff70 ;
 grid-column: span 2;
+
    }
    .box6{
 background-color: #ffd670 ;
@@ -105,3 +107,28 @@ background-color: #ff9770 ;
     grid-column: span 2;
   }
 }
+/* CONTENIDO DENTRO */
+.imagenrest{
+    background-image: url(imagenes/250917__-__Antares_Guemes_ph_G_Viramonte-7896.jpg);
+    border: 2px white;
+    height: 100vh;
+    margin: 7px;
+    animation-timing-function: ease-in;
+ animation-duration: 5s;   
+ animation-iteration-count: infinite;
+ animation-name: imagen
+ 
+;
+background-position: center;
+}
+@keyframes imagen{
+    0%{
+        opacity:  0; }
+
+        50%{
+            opacity: 50;
+        }
+        100%{
+            opacity: 100;
+        }
+    }
