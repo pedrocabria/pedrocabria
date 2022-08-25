@@ -2,6 +2,17 @@
     margin: 0%;
     box-sizing: border-box;
     padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+
+}
+.find-map__map{
+    margin: 8px;
+    padding: 5px;
 }
 li{
     display: inline-block;
@@ -30,11 +41,14 @@ display: flex;
 }
 .aside1{
      background-color: #ffb703;
+    
+     
 }
 .footer {
     background-color: #023047;
     color: #e9ff70;
     text-align: center;
+   
 }
 a{
     color: #e9ff70;
@@ -51,6 +65,7 @@ a{
   .box5{
     background-color:#e9ff70 ;
     grid-column: span 2;
+   
    
        }
        .box6{
@@ -108,6 +123,33 @@ background-color: #ff9770 ;
   }
 }
 /* CONTENIDO DENTRO */
+.DD{
+    color: #023047;
+}
+.videos{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 10px #023047;
+    display: inline-block;
+}
+.imagenrest2{
+    background-image: url(imagenes/pequena-empresa-familiar-producciones-bebidas-cerveceria-moderna-trabajadores-masculinos-atractivos-jovenes-ocupados-delantales-trabajan-equipos-elaboracion-cerveza-hacen-buena-cerveza-interior-fabric.webp);
+    border: 2px white;
+    height: 50px;
+    background-position: inherit;
+    background-repeat: inherit;
+    width: 500px;
+    height: 476px;
+    margin: 7px;
+    animation-timing-function: ease-in;
+ animation-duration: 5s;   
+ animation-iteration-count: infinite;
+ animation-name: imagen
+ 
+;
+background-position: center;
+}
 .imagenrest{
     background-image: url(imagenes/250917__-__Antares_Guemes_ph_G_Viramonte-7896.jpg);
     border: 2px white;
@@ -127,8 +169,59 @@ background-position: center;
 
         50%{
             opacity: 50;
+            
         }
         100%{
             opacity: 100;
         }
     }
+    .imagenrest3{
+        background-image: url(imagenes/ff.png);
+        border: 2px white;
+        height: 400px;
+        margin: 2px;
+        padding: 2px;
+        animation-timing-function: ease-in;
+     animation-duration: 5s;   
+     animation-iteration-count: infinite;
+     animation-name: imagen
+     
+    ;
+    background-position: center;
+    }
+.contact{
+    background-image: url(imagenes/llamada.png);
+    border: 2px white;
+        height: 100px;
+        margin: 2px;
+        padding: 2px;
+        color: black;
+        font-style: oblique;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 600; font-size: 50px;
+        background-position: initial;
+        background-size: contain;
+        animation-timing-function: ease-in;
+     animation-duration: 5s;   
+     animation-iteration-count: initial;
+     animation-name: imagen;
+}
+.contact2{
+    background-image: url(imagenes/contacto1.webp);
+    border: 2px white;
+        height: 100px;
+        margin: 2px;
+        padding: 2px;
+        color: black;
+        font-style: oblique;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 600; font-size: 50px;
+        background-position: initial;
+        background-size: contain;
+        animation-timing-function: ease-in;
+     animation-duration: 5s;   
+     animation-iteration-count: initial;
+     animation-name: imagen;
+     
+}
+    
